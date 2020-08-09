@@ -38,7 +38,7 @@ const Card = React.memo(props => {
         <div className="card-body">
           <h5 className="card-title">{movie.Title}</h5>
           <p className="card-text"> Year : {movie.Year} , Type: {movie.Type} </p>
-          <button className="btn btn-primary" onClick={viewButtonClick}>View</button>
+         
         </div>
       </div>
       <br />
